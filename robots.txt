@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mahadevfeb1-svg.github.io/ema-backtesting/sitemap.xml
