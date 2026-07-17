@@ -1,0 +1,2497 @@
+{
+  "daily_spot": {
+    "NIFTY": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 14,
+          "win_rate": 64.3,
+          "avg_ret": 0.188
+        },
+        "6": {
+          "signals": 14,
+          "win_rate": 71.4,
+          "avg_ret": 0.569
+        },
+        "12": {
+          "signals": 14,
+          "win_rate": 42.9,
+          "avg_ret": 0.22
+        },
+        "24": {
+          "signals": 14,
+          "win_rate": 64.3,
+          "avg_ret": 1.614
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 10,
+          "win_rate": 40.0,
+          "avg_ret": -0.447
+        },
+        "6": {
+          "signals": 10,
+          "win_rate": 60.0,
+          "avg_ret": -0.305
+        },
+        "12": {
+          "signals": 10,
+          "win_rate": 60.0,
+          "avg_ret": -0.111
+        },
+        "24": {
+          "signals": 10,
+          "win_rate": 50.0,
+          "avg_ret": -0.996
+        }
+      }
+    },
+    "BANKNIFTY": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 16,
+          "win_rate": 68.8,
+          "avg_ret": 0.302
+        },
+        "6": {
+          "signals": 16,
+          "win_rate": 75.0,
+          "avg_ret": 0.427
+        },
+        "12": {
+          "signals": 16,
+          "win_rate": 68.8,
+          "avg_ret": 1.437
+        },
+        "24": {
+          "signals": 15,
+          "win_rate": 60.0,
+          "avg_ret": 1.016
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 11,
+          "win_rate": 54.5,
+          "avg_ret": 0.075
+        },
+        "6": {
+          "signals": 11,
+          "win_rate": 63.6,
+          "avg_ret": 0.789
+        },
+        "12": {
+          "signals": 11,
+          "win_rate": 54.5,
+          "avg_ret": -0.313
+        },
+        "24": {
+          "signals": 11,
+          "win_rate": 36.4,
+          "avg_ret": -2.304
+        }
+      }
+    },
+    "ADANIPORTS": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": 0.593
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": 3.053
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 83.3,
+          "avg_ret": 6.236
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 10.374
+        }
+      },
+      "bear": {
+        "3": null,
+        "6": null,
+        "12": null,
+        "24": null
+      }
+    },
+    "APOLLOHOSP": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": -1.143
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": -1.679
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 0.0,
+          "avg_ret": -2.86
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -1.852
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.584
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.613
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -3.031
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -11.291
+        }
+      }
+    },
+    "ASIANPAINT": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -1.006
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.505
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.194
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.786
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -1.079
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.549
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -2.425
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 1.054
+        }
+      }
+    },
+    "AXISBANK": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 0.548
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 0.796
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 1.304
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -3.707
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -2.027
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -5.654
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -7.843
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -4.184
+        }
+      }
+    },
+    "BAJAJ-AUTO": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -2.97
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -4.271
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 0.591
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.099
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -3.476
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -1.608
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 0.461
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 5.378
+        }
+      }
+    },
+    "BAJAJFINSV": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 0.859
+        },
+        "6": {
+          "signals": 5,
+          "win_rate": 80.0,
+          "avg_ret": 3.314
+        },
+        "12": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": 2.95
+        },
+        "24": {
+          "signals": 5,
+          "win_rate": 80.0,
+          "avg_ret": 5.464
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.198
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": 1.694
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 3.286
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.164
+        }
+      }
+    },
+    "BAJFINANCE": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": -0.538
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -1.145
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": -0.254
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": 1.088
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.594
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 2.723
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.167
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -2.015
+        }
+      }
+    },
+    "BHARTIARTL": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 0.125
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.832
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.592
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 2.113
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 0.238
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -1.211
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -1.961
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 4.768
+        }
+      }
+    },
+    "BPCL": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 7,
+          "win_rate": 42.9,
+          "avg_ret": -0.634
+        },
+        "6": {
+          "signals": 7,
+          "win_rate": 71.4,
+          "avg_ret": 0.172
+        },
+        "12": {
+          "signals": 7,
+          "win_rate": 57.1,
+          "avg_ret": 1.014
+        },
+        "24": {
+          "signals": 7,
+          "win_rate": 42.9,
+          "avg_ret": -2.751
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 6.184
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 12.014
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 13.552
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 2.769
+        }
+      }
+    },
+    "BRITANNIA": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -1.116
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -1.151
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": 0.83
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -1.843
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -0.84
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -3.127
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -1.295
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 1.614
+        }
+      }
+    },
+    "CIPLA": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.324
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 0.381
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.949
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 3.725
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -0.946
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -3.517
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -2.957
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -2.996
+        }
+      }
+    },
+    "COALINDIA": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": 0.372
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 4.268
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 4.536
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 6.317
+        }
+      },
+      "bear": {
+        "3": null,
+        "6": null,
+        "12": null,
+        "24": null
+      }
+    },
+    "DIVISLAB": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 0.0,
+          "avg_ret": -1.275
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 0.0,
+          "avg_ret": -2.37
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 0.0,
+          "avg_ret": -4.107
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 2.037
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -0.124
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 1.511
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 1.238
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -2.992
+        }
+      }
+    },
+    "DRREDDY": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.005
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 1.253
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.078
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.218
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 8,
+          "win_rate": 50.0,
+          "avg_ret": -0.241
+        },
+        "6": {
+          "signals": 8,
+          "win_rate": 37.5,
+          "avg_ret": -0.431
+        },
+        "12": {
+          "signals": 8,
+          "win_rate": 25.0,
+          "avg_ret": -1.919
+        },
+        "24": {
+          "signals": 8,
+          "win_rate": 37.5,
+          "avg_ret": -0.938
+        }
+      }
+    },
+    "EICHERMOT": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 7,
+          "win_rate": 57.1,
+          "avg_ret": -0.767
+        },
+        "6": {
+          "signals": 7,
+          "win_rate": 28.6,
+          "avg_ret": -1.42
+        },
+        "12": {
+          "signals": 7,
+          "win_rate": 57.1,
+          "avg_ret": -0.07
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -0.217
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 0.0,
+          "avg_ret": -2.791
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 0.0,
+          "avg_ret": -2.773
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -3.696
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -6.691
+        }
+      }
+    },
+    "GRASIM": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.081
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.385
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 1.094
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.495
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 0.302
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -0.078
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.246
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -1.346
+        }
+      }
+    },
+    "HCLTECH": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 0.427
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.559
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 3.623
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -12.411
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.469
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 2.943
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 5.047
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 4.328
+        }
+      }
+    },
+    "HDFCBANK": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 1.023
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.37
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 1.587
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 2.738
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": -0.01
+        },
+        "6": {
+          "signals": 5,
+          "win_rate": 40.0,
+          "avg_ret": -0.445
+        },
+        "12": {
+          "signals": 5,
+          "win_rate": 80.0,
+          "avg_ret": 0.969
+        },
+        "24": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": 0.227
+        }
+      }
+    },
+    "HDFCLIFE": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 1.73
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 0.965
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -1.073
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -7.209
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 0.894
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 0.965
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 83.3,
+          "avg_ret": 1.92
+        },
+        "24": {
+          "signals": 5,
+          "win_rate": 100.0,
+          "avg_ret": 3.764
+        }
+      }
+    },
+    "HEROMOTOCO": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 6,
+          "win_rate": 83.3,
+          "avg_ret": 1.549
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 1.428
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 2.133
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 6.542
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 2.613
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 3.039
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 5.922
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 10.524
+        }
+      }
+    },
+    "HINDUNILVR": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 3.264
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.298
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -2.204
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 3.759
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": -0.963
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 0.552
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -3.243
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 5.664
+        }
+      }
+    },
+    "ICICIBANK": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 7,
+          "win_rate": 28.6,
+          "avg_ret": -0.197
+        },
+        "6": {
+          "signals": 7,
+          "win_rate": 71.4,
+          "avg_ret": 0.936
+        },
+        "12": {
+          "signals": 7,
+          "win_rate": 42.9,
+          "avg_ret": 0.32
+        },
+        "24": {
+          "signals": 7,
+          "win_rate": 71.4,
+          "avg_ret": 2.623
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 1.154
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 1.723
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.232
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 0.0,
+          "avg_ret": -3.526
+        }
+      }
+    },
+    "INDUSINDBK": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": 0.417
+        },
+        "6": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": 0.738
+        },
+        "12": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": 0.818
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.767
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.102
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.53
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -2.974
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 0.0,
+          "avg_ret": -6.284
+        }
+      }
+    },
+    "INFY": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -2.932
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -1.425
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.34
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -1.997
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 2.726
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.799
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 3.633
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 2.166
+        }
+      }
+    },
+    "ITC": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.539
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -0.109
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": 1.307
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 2.706
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -3.384
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -3.733
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -0.782
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -4.601
+        }
+      }
+    },
+    "JSWSTEEL": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.312
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -1.893
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 1.104
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 3.831
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.58
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -2.754
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -6.07
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -12.151
+        }
+      }
+    },
+    "KOTAKBANK": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 5,
+          "win_rate": 20.0,
+          "avg_ret": -0.586
+        },
+        "6": {
+          "signals": 5,
+          "win_rate": 20.0,
+          "avg_ret": -0.127
+        },
+        "12": {
+          "signals": 5,
+          "win_rate": 80.0,
+          "avg_ret": 0.879
+        },
+        "24": {
+          "signals": 5,
+          "win_rate": 100.0,
+          "avg_ret": 3.01
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -1.523
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -1.809
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 0.0,
+          "avg_ret": -4.036
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -4.139
+        }
+      }
+    },
+    "LT": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 100.0,
+          "avg_ret": 0.587
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.338
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.206
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 2.899
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 0.0,
+          "avg_ret": -3.495
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -2.992
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -5.252
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -8.378
+        }
+      }
+    },
+    "M&M": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.244
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.295
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.628
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 2.015
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.827
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -3.736
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -4.306
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 1.809
+        }
+      }
+    },
+    "MARUTI": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -0.786
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.044
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 6.429
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 6.849
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -1.254
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -2.726
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -3.096
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.26
+        }
+      }
+    },
+    "NESTLEIND": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 100.0,
+          "avg_ret": 1.362
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 100.0,
+          "avg_ret": 2.131
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 3.426
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 4.324
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.088
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.68
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -2.265
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -2.953
+        }
+      }
+    },
+    "NTPC": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 0.366
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": 0.21
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 3.109
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": 5.317
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 1.995
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.128
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.235
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": 3.046
+        }
+      }
+    },
+    "ONGC": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -0.723
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.619
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.562
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 2.132
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -2.187
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": -1.591
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": -1.933
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 2.525
+        }
+      }
+    },
+    "PIDILITIND": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.974
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 0.15
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.866
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.309
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 0.305
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -2.386
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -3.45
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.396
+        }
+      }
+    },
+    "POWERGRID": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 2.497
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 3.182
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.829
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": -1.268
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 2.569
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 2.662
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 1.747
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": -1.451
+        }
+      }
+    },
+    "RELIANCE": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 6,
+          "win_rate": 16.7,
+          "avg_ret": -2.392
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -2.836
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -1.514
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 1.221
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.716
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 0.655
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -3.289
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -1.723
+        }
+      }
+    },
+    "SBILIFE": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.667
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -2.229
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -2.238
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.078
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.522
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": -0.538
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -1.325
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 0.252
+        }
+      }
+    },
+    "SBIN": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 9,
+          "win_rate": 44.4,
+          "avg_ret": -0.241
+        },
+        "6": {
+          "signals": 9,
+          "win_rate": 44.4,
+          "avg_ret": 0.888
+        },
+        "12": {
+          "signals": 9,
+          "win_rate": 55.6,
+          "avg_ret": 2.235
+        },
+        "24": {
+          "signals": 9,
+          "win_rate": 44.4,
+          "avg_ret": 0.219
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.17
+        },
+        "6": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 2.432
+        },
+        "12": {
+          "signals": 1,
+          "win_rate": 100.0,
+          "avg_ret": 1.047
+        },
+        "24": {
+          "signals": 1,
+          "win_rate": 0.0,
+          "avg_ret": -4.176
+        }
+      }
+    },
+    "SUNPHARMA": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -2.618
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -2.542
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.855
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.113
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -1.613
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": -1.381
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 0.0,
+          "avg_ret": -3.512
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -6.264
+        }
+      }
+    },
+    "TATACONSUM": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -3.101
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -2.11
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -1.979
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -2.391
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.986
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.632
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": 1.077
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -5.773
+        }
+      }
+    },
+    "TATASTEEL": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 5,
+          "win_rate": 40.0,
+          "avg_ret": 0.919
+        },
+        "6": {
+          "signals": 5,
+          "win_rate": 100.0,
+          "avg_ret": 3.771
+        },
+        "12": {
+          "signals": 5,
+          "win_rate": 80.0,
+          "avg_ret": 4.74
+        },
+        "24": {
+          "signals": 5,
+          "win_rate": 80.0,
+          "avg_ret": 2.176
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 5.095
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 3.966
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 2.53
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 100.0,
+          "avg_ret": 5.743
+        }
+      }
+    },
+    "TCS": {
+      "candles": 876,
+      "bull": {
+        "3": null,
+        "6": null,
+        "12": null,
+        "24": null
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -2.329
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -3.598
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": -5.046
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -5.496
+        }
+      }
+    },
+    "TECHM": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 5,
+          "win_rate": 40.0,
+          "avg_ret": 1.453
+        },
+        "6": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": 2.168
+        },
+        "12": {
+          "signals": 5,
+          "win_rate": 100.0,
+          "avg_ret": 3.092
+        },
+        "24": {
+          "signals": 5,
+          "win_rate": 80.0,
+          "avg_ret": 2.817
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.076
+        },
+        "6": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -1.474
+        },
+        "12": {
+          "signals": 2,
+          "win_rate": 50.0,
+          "avg_ret": 1.545
+        },
+        "24": {
+          "signals": 2,
+          "win_rate": 0.0,
+          "avg_ret": -6.506
+        }
+      }
+    },
+    "TITAN": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": 0.052
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -0.76
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": -0.999
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 33.3,
+          "avg_ret": -1.721
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": 1.843
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": 0.006
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 50.0,
+          "avg_ret": -1.523
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -4.9
+        }
+      }
+    },
+    "ULTRACEMCO": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 6,
+          "win_rate": 50.0,
+          "avg_ret": 0.502
+        },
+        "6": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 0.916
+        },
+        "12": {
+          "signals": 6,
+          "win_rate": 83.3,
+          "avg_ret": 3.627
+        },
+        "24": {
+          "signals": 6,
+          "win_rate": 66.7,
+          "avg_ret": 2.504
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 0.0,
+          "avg_ret": -0.614
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.291
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -2.047
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -4.447
+        }
+      }
+    },
+    "UPL": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 3,
+          "win_rate": 100.0,
+          "avg_ret": 2.297
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 2.143
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.516
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.768
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 0.329
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.685
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 1.303
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 8.567
+        }
+      }
+    },
+    "VEDL": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 4,
+          "win_rate": 100.0,
+          "avg_ret": 4.913
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 100.0,
+          "avg_ret": 6.874
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 0.537
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 75.0,
+          "avg_ret": 4.778
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 4,
+          "win_rate": 0.0,
+          "avg_ret": -1.236
+        },
+        "6": {
+          "signals": 4,
+          "win_rate": 0.0,
+          "avg_ret": -3.701
+        },
+        "12": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -1.728
+        },
+        "24": {
+          "signals": 4,
+          "win_rate": 25.0,
+          "avg_ret": -4.066
+        }
+      }
+    },
+    "WIPRO": {
+      "candles": 876,
+      "bull": {
+        "3": {
+          "signals": 5,
+          "win_rate": 20.0,
+          "avg_ret": -1.097
+        },
+        "6": {
+          "signals": 5,
+          "win_rate": 40.0,
+          "avg_ret": -0.758
+        },
+        "12": {
+          "signals": 5,
+          "win_rate": 60.0,
+          "avg_ret": -0.518
+        },
+        "24": {
+          "signals": 5,
+          "win_rate": 40.0,
+          "avg_ret": -1.772
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 3,
+          "win_rate": 33.3,
+          "avg_ret": -0.824
+        },
+        "6": {
+          "signals": 3,
+          "win_rate": 0.0,
+          "avg_ret": -2.805
+        },
+        "12": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 0.578
+        },
+        "24": {
+          "signals": 3,
+          "win_rate": 66.7,
+          "avg_ret": 3.806
+        }
+      }
+    }
+  },
+  "options": {
+    "NIFTY_CALL": {
+      "candles": 9075,
+      "bull": {
+        "3": {
+          "signals": 57,
+          "win_rate": 28.1,
+          "avg_ret": -2.286
+        },
+        "6": {
+          "signals": 57,
+          "win_rate": 22.8,
+          "avg_ret": -4.432
+        },
+        "12": {
+          "signals": 57,
+          "win_rate": 12.3,
+          "avg_ret": -4.917
+        },
+        "24": {
+          "signals": 57,
+          "win_rate": 12.3,
+          "avg_ret": -7.35
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 109,
+          "win_rate": 23.9,
+          "avg_ret": -2.54
+        },
+        "6": {
+          "signals": 109,
+          "win_rate": 37.6,
+          "avg_ret": -1.371
+        },
+        "12": {
+          "signals": 109,
+          "win_rate": 41.3,
+          "avg_ret": -1.572
+        },
+        "24": {
+          "signals": 108,
+          "win_rate": 42.6,
+          "avg_ret": 0.225
+        }
+      }
+    },
+    "NIFTY_PUT": {
+      "candles": 9075,
+      "bull": {
+        "3": {
+          "signals": 41,
+          "win_rate": 26.8,
+          "avg_ret": -2.083
+        },
+        "6": {
+          "signals": 41,
+          "win_rate": 14.6,
+          "avg_ret": -3.967
+        },
+        "12": {
+          "signals": 41,
+          "win_rate": 14.6,
+          "avg_ret": -4.874
+        },
+        "24": {
+          "signals": 41,
+          "win_rate": 24.4,
+          "avg_ret": -4.552
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 99,
+          "win_rate": 30.3,
+          "avg_ret": -2.194
+        },
+        "6": {
+          "signals": 99,
+          "win_rate": 39.4,
+          "avg_ret": -1.96
+        },
+        "12": {
+          "signals": 99,
+          "win_rate": 41.4,
+          "avg_ret": -0.81
+        },
+        "24": {
+          "signals": 99,
+          "win_rate": 42.4,
+          "avg_ret": 0.449
+        }
+      }
+    },
+    "BANKNIFTY_CALL": {
+      "candles": 9075,
+      "bull": {
+        "3": {
+          "signals": 39,
+          "win_rate": 33.3,
+          "avg_ret": -1.34
+        },
+        "6": {
+          "signals": 39,
+          "win_rate": 30.8,
+          "avg_ret": -1.75
+        },
+        "12": {
+          "signals": 39,
+          "win_rate": 33.3,
+          "avg_ret": -1.148
+        },
+        "24": {
+          "signals": 38,
+          "win_rate": 28.9,
+          "avg_ret": -2.773
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 77,
+          "win_rate": 40.3,
+          "avg_ret": -0.963
+        },
+        "6": {
+          "signals": 77,
+          "win_rate": 32.5,
+          "avg_ret": -1.005
+        },
+        "12": {
+          "signals": 77,
+          "win_rate": 42.9,
+          "avg_ret": -0.649
+        },
+        "24": {
+          "signals": 77,
+          "win_rate": 46.8,
+          "avg_ret": 1.833
+        }
+      }
+    },
+    "BANKNIFTY_PUT": {
+      "candles": 9075,
+      "bull": {
+        "3": {
+          "signals": 38,
+          "win_rate": 31.6,
+          "avg_ret": -1.25
+        },
+        "6": {
+          "signals": 38,
+          "win_rate": 26.3,
+          "avg_ret": -2.282
+        },
+        "12": {
+          "signals": 38,
+          "win_rate": 26.3,
+          "avg_ret": -2.514
+        },
+        "24": {
+          "signals": 38,
+          "win_rate": 13.2,
+          "avg_ret": -3.332
+        }
+      },
+      "bear": {
+        "3": {
+          "signals": 59,
+          "win_rate": 37.3,
+          "avg_ret": -1.386
+        },
+        "6": {
+          "signals": 59,
+          "win_rate": 47.5,
+          "avg_ret": -0.74
+        },
+        "12": {
+          "signals": 59,
+          "win_rate": 47.5,
+          "avg_ret": 0.27
+        },
+        "24": {
+          "signals": 59,
+          "win_rate": 59.3,
+          "avg_ret": 2.085
+        }
+      }
+    }
+  },
+  "meta": {}
+}

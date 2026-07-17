@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Large instrument master (re-downloadable from Dhan any time)
+security_id_list.csv
+
+# Local secrets - never commit
+.env
+*.token
+
+# OS
+.DS_Store
+Thumbs.db
