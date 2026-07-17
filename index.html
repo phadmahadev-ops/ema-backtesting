@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- ===== SEO ===== -->
+<title>Free NIFTY &amp; Bank Nifty Historical Data + Options Backtest | EMA 8/24/72 Strategy</title>
+<meta name="description" content="Download FREE NIFTY 50, Bank Nifty and ATM options historical data (5-min &amp; daily). Fully backtested EMA 8/24/72 stack crossover strategy with real win rates. Open-source Python code + CSV + Excel." />
+<meta name="keywords" content="nifty 50 historical data free, bank nifty option historical data, nifty 5 minute data csv, EMA crossover strategy backtest, 8 24 72 EMA strategy, dhan api python backtest, atm option premium historical data, nifty options backtesting python, intraday trading strategy win rate, algo trading india open source, banknifty options data download, free options chain data" />
+<meta name="author" content="Monetry" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://mahadevfeb1-svg.github.io/ema-backtesting/" />
+
+<!-- Open Graph / social share -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Free NIFTY &amp; Bank Nifty Historical Data + EMA Strategy Backtest" />
+<meta property="og:description" content="Free 5-min &amp; daily data for NIFTY 50, Bank Nifty and ATM options + open-source EMA 8/24/72 backtest with real win rates." />
+<meta property="og:url" content="https://mahadevfeb1-svg.github.io/ema-backtesting/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Free NIFTY / Bank Nifty Historical Data + EMA Backtest" />
+<meta name="twitter:description" content="Free options &amp; index historical data + open-source backtest. Real win rates." />
+
+<!-- structured data for Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "EMA 8/24/72 Stack Backtest",
+  "description": "Free NIFTY 50, Bank Nifty and ATM options historical data plus an open-source EMA stack crossover backtest in Python.",
+  "programmingLanguage": "Python",
+  "codeRepository": "https://github.com/mahadevfeb1-svg/ema-backtesting",
+  "license": "https://opensource.org/licenses/MIT",
+  "keywords": "nifty historical data, bank nifty option data, EMA backtest, algo trading india"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"How can I get NIFTY 50 historical data for free?","acceptedAnswer":{"@type":"Answer","text":"This repo gives free 5-minute and daily OHLCV candles for NIFTY 50, Bank Nifty and 48 Nifty-50 stocks as CSV and Excel. Download from GitHub, no sign-up needed."}},
+    {"@type":"Question","name":"Is Bank Nifty option historical data available for free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Rolling ATM Call and Put historical data (6 months of 5-min candles) for Nifty and Bank Nifty is shared free, fetched from the Dhan API."}},
+    {"@type":"Question","name":"Does the EMA 8/24/72 strategy actually work?","acceptedAnswer":{"@type":"Answer","text":"On the buy side for indices it shows a real edge: Bank Nifty 75% and Nifty 71% win rate over 6 trading days. On options, buying loses due to theta decay."}},
+    {"@type":"Question","name":"Can I run this backtest myself?","acceptedAnswer":{"@type":"Answer","text":"Yes. Clone the repo, install dhanhq, pandas and openpyxl, add your own free Dhan API token as an environment variable, and run the Python scripts."}},
+    {"@type":"Question","name":"Where can I see live NIFTY and Bank Nifty option chain and OI data?","acceptedAnswer":{"@type":"Answer","text":"Visit Monetry.in, a free live F&O dashboard with option chain, OI heatmap, EMA signals, Gann levels and VIX range analysis."}}
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --bg:#0b1120; --card:#111a2e; --card2:#0f1728;
+    --accent:#00c896; --accent2:#3b82f6; --red:#ef4444;
+    --text:#e6edf6; --muted:#8ea1bb; --line:#1e293b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  .btn{display:inline-block;padding:14px 30px;border-radius:10px;font-weight:700;
+    font-size:16px;transition:.2s;cursor:pointer;border:none}
+  .btn-primary{background:var(--accent);color:#04121b}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,200,150,.35)}
+  .btn-ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+  .btn-ghost:hover{border-color:var(--accent)}
+
+  /* header */
+  header{border-bottom:1px solid var(--line);position:sticky;top:0;
+    background:rgba(11,17,32,.85);backdrop-filter:blur(10px);z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+  .logo{font-weight:800;font-size:20px;display:flex;align-items:center;gap:8px}
+  .logo span{color:var(--accent)}
+
+  /* hero */
+  .hero{text-align:center;padding:80px 0 60px}
+  .badge{display:inline-block;background:rgba(0,200,150,.12);color:var(--accent);
+    padding:6px 16px;border-radius:100px;font-size:13px;font-weight:600;margin-bottom:24px;
+    border:1px solid rgba(0,200,150,.3)}
+  .hero h1{font-size:clamp(30px,5vw,52px);font-weight:800;line-height:1.15;letter-spacing:-1px}
+  .hero h1 .g{color:var(--accent)}
+  .hero p{color:var(--muted);font-size:clamp(16px,2.2vw,20px);max-width:680px;margin:22px auto 34px}
+  .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+  /* stat strip */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:50px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center}
+  .stat .n{font-size:30px;font-weight:800;color:var(--accent)}
+  .stat .l{color:var(--muted);font-size:13px;margin-top:4px}
+
+  /* sections */
+  section{padding:56px 0;border-top:1px solid var(--line)}
+  h2{font-size:clamp(24px,3.5vw,34px);font-weight:800;margin-bottom:12px;text-align:center}
+  .sub{color:var(--muted);text-align:center;max-width:620px;margin:0 auto 40px;font-size:16px}
+
+  /* feature cards */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .fcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px}
+  .fcard .ic{font-size:28px;margin-bottom:12px}
+  .fcard h3{font-size:18px;margin-bottom:8px}
+  .fcard p{color:var(--muted);font-size:14px}
+
+  /* results table */
+  .tablewrap{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:var(--card2);color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+  td.sym{font-weight:700}
+  .wr{font-weight:800}
+  .wr.good{color:var(--accent)} .wr.mid{color:#f59e0b} .wr.bad{color:var(--red)}
+  .pos{color:var(--accent)} .neg{color:var(--red)}
+  .barbg{background:var(--card2);border-radius:6px;height:8px;width:120px;display:inline-block;overflow:hidden;vertical-align:middle;margin-left:8px}
+  .barfill{height:100%;border-radius:6px}
+
+  /* warning */
+  .warn{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.3);
+    border-radius:14px;padding:24px;margin-top:24px}
+  .warn h3{color:var(--red);margin-bottom:8px}
+  .warn p{color:var(--text);font-size:14px}
+
+  /* footer */
+  footer{padding:40px 0;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+  .disc{font-size:12px;color:#5f7089;max-width:760px;margin:16px auto 0}
+
+  @media(max-width:760px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .grid{grid-template-columns:1fr}
+    .barbg{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="https://monetry.in" target="_blank" rel="noopener" style="color:var(--text)">📊 <span>Monetry.in</span> · EMA Backtest</a>
+    <div style="display:flex;gap:10px">
+      <a class="btn btn-ghost" href="https://monetry.in" target="_blank" rel="noopener">🌐 Live Dashboard</a>
+      <a class="btn btn-ghost" href="https://github.com/mahadevfeb1-svg/ema-backtesting" target="_blank" rel="noopener">⭐ GitHub</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero wrap">
+  <div class="badge">100% FREE · OPEN SOURCE · REAL MARKET DATA</div>
+  <h1>Free <span class="g">NIFTY &amp; Bank Nifty</span><br/>Historical Data + Options Backtest</h1>
+  <p>Download free 5-minute &amp; daily OHLCV data for NIFTY 50, Bank Nifty and
+     <b>ATM options (Call/Put)</b> — plus a fully documented Python backtest of the
+     <b>EMA 8/24/72 stack strategy</b> with real win rates.</p>
+  <div class="cta">
+    <a class="btn btn-primary" href="https://github.com/mahadevfeb1-svg/ema-backtesting" target="_blank" rel="noopener">Get the Data &amp; Code →</a>
+    <a class="btn btn-ghost" href="https://monetry.in" target="_blank" rel="noopener">🌐 Live F&amp;O Dashboard</a>
+    <a class="btn btn-ghost" href="#results">See Results</a>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="n">50+</div><div class="l">Instruments</div></div>
+    <div class="stat"><div class="n">3.5 yr</div><div class="l">Daily history</div></div>
+    <div class="stat"><div class="n">ATM</div><div class="l">Options data</div></div>
+    <div class="stat"><div class="n">Free</div><div class="l">Forever</div></div>
+  </div>
+</div>
+
+<!-- WHAT YOU GET -->
+<section id="data">
+  <div class="wrap">
+    <h2>What You Get</h2>
+    <p class="sub">Everything used in this study is shared openly on GitHub.</p>
+    <div class="grid">
+      <div class="fcard"><div class="ic">📈</div><h3>Index &amp; Stock Data</h3>
+        <p>5-min &amp; daily candles for NIFTY 50, Bank Nifty and all 48 liquid Nifty-50 stocks. CSV + Excel.</p></div>
+      <div class="fcard"><div class="ic">🎯</div><h3>Rare Options Data</h3>
+        <p>Rolling ATM Call &amp; Put historical data for Nifty &amp; Bank Nifty — 6 months of 5-min candles. Most sites don't give this free.</p></div>
+      <div class="fcard"><div class="ic">🐍</div><h3>Full Python Code</h3>
+        <p>Documented backtest scripts for the EMA 8/24/72 stack crossover strategy. Run it on your own Dhan account.</p></div>
+      <div class="fcard"><div class="ic">📊</div><h3>Win-Rate Analysis</h3>
+        <p>Per-symbol, per-horizon win rates and average returns. Ranking sheet included.</p></div>
+      <div class="fcard"><div class="ic">📑</div><h3>Excel + PPT</h3>
+        <p>Ready-made Excel workbooks and a PowerPoint of the results — grab and go.</p></div>
+      <div class="fcard"><div class="ic">🔓</div><h3>MIT Licensed</h3>
+        <p>Free to use, modify and share. No sign-up, no paywall, no catch.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- STRATEGY -->
+<section id="strategy">
+  <div class="wrap">
+    <h2>The EMA 8/24/72 Stack Strategy</h2>
+    <p class="sub">Three EMAs stacked in order. Bullish when 8 &gt; 24 &gt; 72,
+       bearish when 8 &lt; 24 &lt; 72. A trade fires only when the stack first forms
+       and volume is ≥ 1.3× its 20-bar average.</p>
+    <div class="grid">
+      <div class="fcard"><div class="ic">🟢</div><h3>Bullish Stack</h3><p>EMA8 &gt; EMA24 &gt; EMA72 → uptrend confirmation.</p></div>
+      <div class="fcard"><div class="ic">🔴</div><h3>Bearish Stack</h3><p>EMA8 &lt; EMA24 &lt; EMA72 → downtrend confirmation.</p></div>
+      <div class="fcard"><div class="ic">⚡</div><h3>Volume Filter</h3><p>Signal must have volume ≥ 1.3× the 20-bar average.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="wrap">
+    <h2>Backtest Results</h2>
+    <p class="sub">Daily candles, 3.5 years, +6 trading days horizon, minimum 5 signals.
+       Indices have the biggest samples, so their win rates are the most trustworthy.</p>
+
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Symbol</th><th>Side</th><th>Signals</th><th>Win Rate</th><th>Avg Return</th></tr></thead>
+        <tbody>
+          <tr><td class="sym">TATASTEEL</td><td>BULL</td><td>5</td>
+              <td class="wr good">100% <span class="barbg"><span class="barfill" style="width:100%;background:#00c896"></span></span></td><td class="pos">+3.77%</td></tr>
+          <tr><td class="sym">BAJAJFINSV</td><td>BULL</td><td>5</td>
+              <td class="wr good">80% <span class="barbg"><span class="barfill" style="width:80%;background:#00c896"></span></span></td><td class="pos">+3.31%</td></tr>
+          <tr><td class="sym">BANK NIFTY ⭐</td><td>BULL</td><td>16</td>
+              <td class="wr good">75% <span class="barbg"><span class="barfill" style="width:75%;background:#00c896"></span></span></td><td class="pos">+0.43%</td></tr>
+          <tr><td class="sym">ICICIBANK</td><td>BULL</td><td>7</td>
+              <td class="wr good">71% <span class="barbg"><span class="barfill" style="width:71%;background:#00c896"></span></span></td><td class="pos">+0.94%</td></tr>
+          <tr><td class="sym">NIFTY 50 ⭐</td><td>BULL</td><td>14</td>
+              <td class="wr good">71% <span class="barbg"><span class="barfill" style="width:71%;background:#00c896"></span></span></td><td class="pos">+0.57%</td></tr>
+          <tr><td class="sym">HEROMOTOCO</td><td>BULL</td><td>6</td>
+              <td class="wr good">67% <span class="barbg"><span class="barfill" style="width:67%;background:#00c896"></span></span></td><td class="pos">+1.43%</td></tr>
+          <tr><td class="sym">ULTRACEMCO</td><td>BULL</td><td>6</td>
+              <td class="wr good">67% <span class="barbg"><span class="barfill" style="width:67%;background:#00c896"></span></span></td><td class="pos">+0.92%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="margin-top:48px">Options (ATM Call / Put)</h2>
+    <p class="sub">Rolling ATM options, 6 months of 5-min data, +120 min hold.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Option Leg</th><th>Best Side</th><th>Signals</th><th>Win Rate</th><th>Avg Return</th></tr></thead>
+        <tbody>
+          <tr><td class="sym">BANK NIFTY PUT</td><td>BEAR</td><td>59</td><td class="wr good">59%</td><td class="pos">+2.09%</td></tr>
+          <tr><td class="sym">BANK NIFTY CALL</td><td>BEAR</td><td>77</td><td class="wr mid">47%</td><td class="pos">+1.83%</td></tr>
+          <tr><td class="sym">NIFTY CALL</td><td>BEAR</td><td>108</td><td class="wr bad">43%</td><td class="pos">+0.23%</td></tr>
+          <tr><td class="sym">NIFTY PUT</td><td>BEAR</td><td>99</td><td class="wr bad">42%</td><td class="pos">+0.45%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="warn">
+      <h3>⚠️ Honest Reality Check</h3>
+      <p><b>Buying options on this signal loses money</b> on almost every leg (win rate 12–33%,
+        negative average return) because of theta decay and whipsaw. Take the EMA-stack signal on
+        <b>spot / futures</b> and use options only to execute — not as the thing you measure the signal on.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <h2>Frequently Asked Questions</h2>
+    <p class="sub">Common questions people search for.</p>
+    <div style="max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:14px">
+      <div class="fcard"><h3>How can I get NIFTY 50 historical data for free?</h3>
+        <p>This repo gives you free 5-minute and daily OHLCV candles for NIFTY 50, Bank Nifty and 48 Nifty-50 stocks as CSV and Excel. Just download from the <a href="https://github.com/mahadevfeb1-svg/ema-backtesting" target="_blank" rel="noopener">GitHub repo</a> — no sign-up needed.</p></div>
+      <div class="fcard"><h3>Is Bank Nifty option historical data available for free?</h3>
+        <p>Yes. We share rolling ATM Call &amp; Put historical data (6 months of 5-min candles) for both Nifty and Bank Nifty — data most sites charge for. It's fetched from the Dhan API and included free here.</p></div>
+      <div class="fcard"><h3>Does the EMA 8/24/72 strategy actually work?</h3>
+        <p>On the buy side for indices it shows a real edge — Bank Nifty 75% and Nifty 71% win rate over 6 trading days. On options, buying is a losing game due to theta decay. Full numbers are in the results above.</p></div>
+      <div class="fcard"><h3>Can I run this backtest myself?</h3>
+        <p>Yes. Clone the repo, install <code>dhanhq</code>, <code>pandas</code>, <code>openpyxl</code>, add your own free Dhan API token as an environment variable, and run the Python scripts. Everything is documented.</p></div>
+      <div class="fcard"><h3>Where can I see live NIFTY / Bank Nifty option chain &amp; OI data?</h3>
+        <p>Visit <a href="https://monetry.in" target="_blank" rel="noopener"><b>Monetry.in</b></a> — a free live F&amp;O dashboard with option chain, OI heatmap, EMA signals, Gann levels and VIX range analysis.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="get">
+  <div class="wrap" style="text-align:center">
+    <h2>Get Everything — Free</h2>
+    <p class="sub">Data, code, Excel and results. No sign-up. No paywall.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://github.com/mahadevfeb1-svg/ema-backtesting" target="_blank" rel="noopener">Open on GitHub →</a>
+      <a class="btn btn-ghost" href="https://monetry.in" target="_blank" rel="noopener">🌐 Visit Monetry.in — Live F&amp;O Dashboard</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Built by <a href="https://monetry.in" target="_blank" rel="noopener">Monetry.in</a> ·
+       Data source: DhanHQ · Open source (MIT)</p>
+    <p class="disc">
+      <b>Disclaimer:</b> For educational and research purposes only. This is not investment advice.
+      Past backtested performance does not guarantee future results. Trading in equities, derivatives
+      and options carries substantial risk of loss. Not SEBI-registered. Consult a SEBI-registered
+      advisor before trading. Market data belongs to its respective exchanges/providers and is shared
+      for educational study only.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
